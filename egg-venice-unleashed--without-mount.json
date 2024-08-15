@@ -6,12 +6,12 @@
     },
     "exported_at": "2023-04-10T18:18:56+05:30",
     "name": "Venice Unleashed [Without Mount]",
-    "author": "me@itsmemac.com",
+    "author": "dominique@wellisch-itservice.de",
     "description": "Venice Unleashed Egg without mount support",
     "features": null,
     "docker_images": {
-        "VU Ptero - Stable": "ghcr.io\/itsmemac\/vu-pterodactyl:main",
-        "VU Ptero - Staging": "ghcr.io\/itsmemac\/vu-pterodactyl:staging"
+        "VU Ptero - Stable": "ghcr.io\/draakoor\/vu-pterodactyl:main",
+        "VU Ptero - Staging": "ghcr.io\/draakoor\/vu-pterodactyl:staging"
     },
     "file_denylist": [],
     "startup": "if [ ! -f \/home\/container\/activated ]; then wine ~\/vu\/client\/vu.com -gamepath ~\/bf3 -activate -o_mail ${EMAIL} -o_pass ${PASSWORD}; touch \/home\/container\/activated; else wine ~\/vu\/client\/vu.com -gamepath ~\/bf3 -serverInstancePath \"$(winepath -w ~\/vu\/instance)\" -server -dedicated -noUpdate -${FREQUENCY} -maxPlayers ${MAX_PLAYER} -listen 0.0.0.0:$SERVER_PORT -mHarmonyPort ${HARMONY} -RemoteAdminPort 0.0.0.0:${RCON}; fi",
