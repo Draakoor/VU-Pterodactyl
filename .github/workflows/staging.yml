@@ -46,4 +46,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/itsmemac/vu-pterodactyl:staging
+            ghcr.io/draakoor/vu-pterodactyl:staging
