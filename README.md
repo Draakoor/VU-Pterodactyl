@@ -1,6 +1,6 @@
 # [Venice Unleashed](https://veniceunleashed.net/) - Pterodactyl Egg and Docker Image
 
-![License](https://img.shields.io/github/license/itsmemac/VU-Pterodactyl?style=plastic/badge.svg) ![Stable](https://github.com/itsmemac/VU-Pterodactyl/actions/workflows/stable.yml/badge.svg) ![Staging](https://github.com/itsmemac/VU-Pterodactyl/actions/workflows/staging.yml/badge.svg)
+![License](https://img.shields.io/github/license/draakoor/VU-Pterodactyl?style=plastic/badge.svg) ![Stable](https://github.com/draakoor/VU-Pterodactyl/actions/workflows/stable.yml/badge.svg) ![Staging](https://github.com/draakoor/VU-Pterodactyl/actions/workflows/staging.yml/badge.svg)
 
 Repository contains latest version of Venice Unleashed Egg for your [Pterodactyl panel](https://pterodactyl.io/) and Docker Image so you can create VU servers easily and have a working server in few seconds
 
